@@ -23,7 +23,7 @@ app.get("/ping", (_, res: Response) => {
   res.send("PONG");
 });
 app.post(
-  "/ping",
+  "/upload-image",
   upload.single("file"),
   async (req: Request, res: Response) => {
     const formData = req.body;
