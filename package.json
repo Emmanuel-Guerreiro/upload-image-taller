@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/app.ts",
-    "start": "ts-node-dev src/app.ts",
+    "start": "node build/app.js",
     "build": "tsc"
   },
   "author": "Emmanuel Guerreiro",
